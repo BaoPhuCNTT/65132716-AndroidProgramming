@@ -1,0 +1,17 @@
+khoa.edu.baith3
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id main
+id nutSO1
+id nutSO2
+id nutSO3
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_BaiTH3
+style Theme_BaiTH3
+xml backup_rules
+xml data_extraction_rules
