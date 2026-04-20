@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BaiThiGK">
         <activity
+            android:name=".ActivityGioiThieu"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDoanhNhan"
+            android:exported="false" />
+        <activity
             android:name=".ActivityCaKhuc"
             android:exported="false" />
         <activity

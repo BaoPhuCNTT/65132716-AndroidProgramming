@@ -26,7 +26,28 @@ public class MainActivity extends AppCompatActivity {
     public void ChuyenTiGia (View v) {
         //Tạo một đối tượng Intent
         //Tham số thứ 2 của ham tạo này, là tên Activity ( màn hình ) ta muốn chuyển sang
-        Intent iManHinhKhac = new Intent(this, ActivityBMI.class);
+        Intent iManHinhKhac = new Intent(this, ActivityTiGia.class);
+        //Thuc hien chuyen
+        startActivity(iManHinhKhac);
+    }
+    public void ChuyenCaKhuc (View v) {
+        //Tạo một đối tượng Intent
+        //Tham số thứ 2 của ham tạo này, là tên Activity ( màn hình ) ta muốn chuyển sang
+        Intent iManHinhKhac = new Intent(this, ActivityCaKhuc.class);
+        //Thuc hien chuyen
+        startActivity(iManHinhKhac);
+    }
+    public void ChuyenDoanhNhan (View v) {
+        //Tạo một đối tượng Intent
+        //Tham số thứ 2 của ham tạo này, là tên Activity ( màn hình ) ta muốn chuyển sang
+        Intent iManHinhKhac = new Intent(this, ActivityDoanhNhan.class);
+        //Thuc hien chuyen
+        startActivity(iManHinhKhac);
+    }
+    public void ChuyenGioiThieu (View v) {
+        //Tạo một đối tượng Intent
+        //Tham số thứ 2 của ham tạo này, là tên Activity ( màn hình ) ta muốn chuyển sang
+        Intent iManHinhKhac = new Intent(this, ActivityGioiThieu.class);
         //Thuc hien chuyen
         startActivity(iManHinhKhac);
     }

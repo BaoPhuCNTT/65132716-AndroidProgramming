@@ -16,14 +16,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DANH MỤC CA KHÚC"
+        android:text="DOANH NHÂN LỊCH SỬ"
         android:textSize="22sp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginBottom="10dp"/>
 
     <ListView
-        android:id="@+id/lvCaKhuc"
+        android:id="@+id/lvDoanhNhan"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

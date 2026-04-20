@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityTiGia">
+    android:orientation="vertical"
+    android:padding="16dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnQuayVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⬅ Quay về"
+        android:onClick="QuayVe"
+        android:backgroundTint="#FF5722"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUY ĐỔI TỈ GIÁ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/edtSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Nhập số tiền (VND)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edtTiGia"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Nhập tỉ giá (Ví dụ: 25000)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnDoiTien"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ĐỔI SANG USD"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả: 0 USD"
+        android:textSize="20sp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
