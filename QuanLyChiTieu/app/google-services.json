@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346831708270",
+    "project_id": "android-projects-460d6",
+    "storage_bucket": "android-projects-460d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346831708270:android:30fcbb0ad37e430127c67f",
+        "android_client_info": {
+          "package_name": "edu.phu.quanlychitieu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfSJti0UuvQ5CcouZY5oZOwFqHmWN414s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
